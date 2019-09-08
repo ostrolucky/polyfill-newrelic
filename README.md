@@ -8,7 +8,7 @@ This component provides `newrelic_*` functions to users who run php versions wit
 
 ## Installation
 
-```php
+```
 composer require killmails/polyfill-newrelic
 ```
 
