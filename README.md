@@ -8,6 +8,7 @@ This component provides `newrelic_*` functions to users who run php versions wit
 
 ## Installation
 
+trigger commit
 ```
 composer require ostrolucky/polyfill-newrelic
 ```
