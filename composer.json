@@ -1,7 +1,7 @@
 {
-    "name": "killmails/polyfill-newrelic",
+    "name": "ostrolucky/polyfill-newrelic",
     "type": "library",
-    "description": "Killmails polyfill for the New Relic PHP extension",
+    "description": "Polyfill for the New Relic PHP extension",
     "keywords": [
         "compatibility",
         "newrelic",
@@ -13,10 +13,14 @@
         {
             "name": "Oizys",
             "email": "oizys@killmails.com"
+        },
+        {
+            "name": "Gabriel Ostrolucký",
+            "email": "gadelat@gmai.com"
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": ">=8.0"
     },
     "suggest": {
         "ext-newrelic": "Install the New Relic PHP agent on your system"
@@ -29,5 +33,7 @@
             "newrelic.php"
         ]
     },
-    "minimum-stability": "dev"
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.34"
+    }
 }

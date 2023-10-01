@@ -1,15 +1,15 @@
 # polyfill-newrelic
 
-[![Packagist](https://img.shields.io/packagist/dt/killmails/polyfill-newrelic?style=flat-square)](https://packagist.org/packages/killmails/polyfill-newrelic)
-[![Version](https://img.shields.io/github/v/release/killmails/polyfill-newrelic?style=flat-square)](https://github.com/killmails/polyfill-newrelic/releases)
-[![License](https://img.shields.io/packagist/l/killmails/polyfill-newrelic?style=flat-square)](LICENSE)
+[![Packagist](https://img.shields.io/packagist/dt/ostrolucky/polyfill-newrelic?style=flat-square)](https://packagist.org/packages/killmails/polyfill-newrelic)
+[![Version](https://img.shields.io/github/v/release/ostrolucky/polyfill-newrelic?style=flat-square)](https://github.com/killmails/polyfill-newrelic/releases)
+[![License](https://img.shields.io/packagist/l/ostrolucky/polyfill-newrelic?style=flat-square)](LICENSE)
 
 This component provides `newrelic_*` functions to users who run php versions without the New Relic PHP extension.
 
 ## Installation
 
 ```
-composer require killmails/polyfill-newrelic
+composer require ostrolucky/polyfill-newrelic
 ```
 
 ## API Documentation
