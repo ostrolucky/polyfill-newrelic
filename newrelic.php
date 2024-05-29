@@ -149,11 +149,8 @@ if (!\extension_loaded('newrelic')) {
     /**
      * Returns an associative array containing the identifiers of the current trace and the parent span.
      *
-     * @see https://docs.newrelic.com/docs/apm/agents/php-agent/php-agent-api/newrelicgetlinkingmetadata/
-     * @return array{
-     *     "trace_id"?: string,
-     *     "span_id"?: string,
-     * }
+     * @see https://docs.newrelic.com/docs/apm/agents/php-agent/php-agent-api/newrelicgettracemetadata/
+     * @return array{trace_id?: string, span_id?: string}
      */
     function newrelic_get_trace_metadata(): array
     {
@@ -205,7 +202,7 @@ if (!\extension_loaded('newrelic')) {
         string|Throwable $em = null,
         ?string $file = null,
         ?int $line = null,
-        ?string $context = null
+        ?string $context = null,
     ) {
         return null;
     }
